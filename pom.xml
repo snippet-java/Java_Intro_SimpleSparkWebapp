@@ -5,6 +5,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>simple-spark</name>
   
+ <parent>
+    <groupId>net.wasdev.maven.parent</groupId>
+    <artifactId>java8-parent</artifactId>
+    <version>1.4</version>
+</parent>
+  
   <dependencies>
     <dependency>
         <groupId>com.sparkjava</groupId>
